@@ -1,0 +1,799 @@
+html {
+  font-size: 16px;
+}
+
+.Container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+  align-items: center;
+  width: 100%;
+}
+
+header img {
+  padding-left: 1.5rem;
+  height: 4rem;
+  padding-top: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  color: deepskyblue;
+  font-weight: bold;
+  display: inline-flex;
+  font-family: 'Permanent Marker';
+}
+
+h1 span {
+  color: dimgray;
+}
+
+nav {
+  text-align:right;
+  flex-grow: 1;
+}
+
+nav a{
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  color: dimgray;
+  display: inline-block;
+  padding-top: 1.5rem;
+  padding-right: 1rem;
+}
+
+nav a:nth-child(2n+2) {
+  color: deepskyblue;
+  font-weight: bold;
+}
+
+
+#Learn-Something {
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+}
+
+.Title img {
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+  padding-right: 2.5rem;
+  width: 60%;
+}
+
+.Title {
+  display: flex;
+}
+
+.Learn {
+  display: block;
+  width: 30%;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.Learn h2 {
+  font-family: 'Permanent Marker';
+  font-size: 4rem;
+  color: deepskyblue;
+}
+
+.Learn p {
+  font-family: 'Open Sans';
+  font-size: 2rem;
+  color: dimgray;
+}
+
+.Learn button {
+  background-color: deepskyblue;
+  font-family: 'Open Sans';
+  font-size: 2rem;
+  color: white;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  width: 100%;
+}
+
+.Learn button:hover {
+  color: white;
+  background-color: forestgreen;
+}
+
+#Keep-Practicing {
+  background-color: white;
+}
+
+#Keep-Practicing .Container {
+  width: 100%;
+  display: flex;
+}
+
+.Information {
+  padding-left: 1.5rem;
+  width: 70%;
+}
+
+.Information img {
+  padding-top: 2rem;
+  padding-right: 1.5rem;
+  width: 96%;
+}
+
+.Information h2 {
+  font-family: 'Permanent Marker';
+  font-size: 4rem;
+  color: deepskyblue;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.Information p {
+  font-family: 'Open Sans';
+  font-size: 1.5rem;
+  color: dimgray;
+  margin-bottom: 3rem;
+  width: 90%;
+}
+
+.Information span {
+  font-family: 'Open Sans';
+  font-size: 1.2rem;
+  color: dimgray;
+  padding-bottom: 1.5rem;
+}
+
+.TableI {
+  display: inline-grid;
+}
+
+.Orientation-date {
+  display:flex;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border: 1px solid lightgray;
+  border-width: thin;
+}
+
+.Orientation-date img {
+  padding: 1rem;
+  margin-left: 1rem;
+  width: 35%;
+}
+
+.first-table {
+  display: block;
+  width: 423px;
+  padding-left: 1.5rem;
+}
+
+.Orientation-date h3 {
+  font-family: "Permanent Marker";
+  color: deepskyblue;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.Orientation-date p {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  color: dimgray;
+}
+
+.Orientation-date a {
+
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  color: deepskyblue;
+}
+
+.Our-campus {
+  display:flex;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border: 1px solid lightgray;
+  border-width: thin;
+}
+
+.Our-campus img {
+  padding: 1rem;
+  margin-left: 1rem;
+  width: 35%;
+}
+
+.second-table {
+  display: block;
+  width: 423px;
+  padding-left: 1.5rem;
+}
+
+.Our-campus h3 {
+  font-family: "Permanent Marker";
+  color: deepskyblue;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.Our-campus p {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  color: dimgray;
+}
+
+.Our-campus a {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  color: deepskyblue;
+}
+
+.Our-guest-lecture {
+  display:flex;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border: 1px solid lightgray;
+  border-width: thin;
+  background-color: lightgray;
+}
+
+.Our-guest-lecture img {
+  padding: 1rem;
+  margin-left: 1rem;
+  width: 35%;
+}
+
+.third-table {
+  display: block;
+  width: 423px;
+  padding-left: 1.5rem;
+}
+
+.Our-guest-lecture h3 {
+  font-family: "Permanent Marker";
+  color: deepskyblue;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.Our-guest-lecture p {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  color: dimgray;
+}
+
+.Our-guest-lecture a {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  color: deepskyblue;
+}
+
+.Orientation-date a:hover,
+.Our-campus a:hover,
+.Our-guest-lecture a:hover{
+  font-weight: bold;
+  color: red;
+}
+
+#Courses {
+  background-color: lightgray;
+}
+
+.Courses .Container {
+  width: 100%;
+}
+
+.Start-learning h2 {
+  padding-top: 2rem;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Permanent Marker";
+  font-size: 4rem;
+  color: deepskyblue;
+}
+
+.Items {
+  display:inline-flex;
+  flex-wrap: wrap;
+  background-color: lightgray;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.Software-engineering {
+  margin: 2rem;
+  background-color: white;
+  width: 531px;
+}
+
+
+.Computer-art {
+  margin: 2rem;
+  background-color: white;
+  width: 531px;
+}
+
+.Design {
+  margin: 2rem;
+  background-color: white;
+  width: 531px;
+}
+
+.Data {
+  margin: 2rem;
+  background-color: white;
+  width: 531px;
+}
+
+.Business {
+  margin: 2rem;
+  background-color: white;
+  width: 531px;
+}
+
+.Marketing{
+  margin: 2rem;
+  background-color: white;
+  width: 531px;
+}
+
+.Software-engineering h3:hover {
+  background-color: mediumseagreen;
+  color: white;
+  font-size: 3rem;
+}
+
+.Computer-art h3:hover {
+  background-color: firebrick;
+  color: white;
+  font-size: 3rem;
+}
+
+.Design h3:hover {
+  background-color: gold;
+  color: white;
+  font-size: 3rem;
+}
+
+.Data h3:hover {
+  background-color: midnightblue;
+  color: white;
+  font-size: 3rem;
+}
+
+.Business h3:hover {
+  background-color: royalblue;
+  color: white;
+  font-size: 3rem;
+}
+
+.Marketing h3:hover {
+  background-color: RebeccaPurple;
+  color: white;
+  font-size: 3rem;
+}
+
+.Items h3 {
+  font-family: "Permanent Marker";
+  color: deepskyblue;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+.Items span {
+  font-family: "Open Sans";
+  color: dimgray;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.Items p {
+  font-family: "Open Sans";
+  color: dimgray;
+  font-size: 1.6rem;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#Thesis {
+  background-color: white;
+}
+
+#Thesis .Container {
+  width: 100%;
+  display: flex;
+}
+
+.Thesis-exhibit h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: "Permanent Marker";
+  font-size: 4rem;
+  color: deepskyblue;
+}
+
+.Reimagine-urban {
+  padding-left: 1.5rem;
+  margin-top: 1.5rem;
+  margin-right: 1rem;
+}
+
+.Reimagine-urban h3 {
+  margin-left: 1.5rem;
+  font-family: "Permanent Marker";
+  color: deepskyblue;
+  font-size: 3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.Reimagine-urban p {
+  font-family: 'Open Sans';
+  font-size: 1.5rem;
+  color: dimgray;
+  margin-bottom: 2rem;
+}
+
+.TableII {
+  display: inline-grid;
+}
+
+.Fisma {
+  display:flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  border: 1px solid lightgray;
+  border-width: thin;
+  background-color: lightgray;
+}
+
+.Fisma:hover,
+.Now-and-then:hover {
+  background-color: skyblue;
+}
+
+.Fisma img {
+  margin: 1rem;
+}
+
+.first-tableII {
+  display: block;
+  width: 423px;
+  padding-left: 1rem;
+  height: 168px;
+}
+
+.Fisma h3 {
+  font-family: "Permanent Marker";
+  color: deepskyblue;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+.Fisma p {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  color: dimgray;
+  margin-right: 1rem;
+}
+
+.Now-and-then {
+  display:flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  border: 1px solid lightgray;
+  border-width: thin;
+}
+
+.Now-and-then img {
+  margin: 1rem;
+}
+
+.second-tableII {
+  display: block;
+  width: 423px;
+  padding-left: 1rem;
+  height: 168px;
+}
+
+.Now-and-then h3 {
+  font-family: "Permanent Marker";
+  color: deepskyblue;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.Now-and-then p {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  color: dimgray;
+}
+
+#Footer {
+  background-color: white;
+  width: 100%;
+  border: 1px solid lightgray;
+  border-width: thin;
+  font-family: "Open Sans";
+  font-size: 1rem;
+  color: dimgray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footer-Info p {
+  margin-left: 1.5rem;
+}
+
+.Terms-Privacy a {
+  text-align: right;
+  text-decoration: none;
+  color: dimgray;
+  display: inline-block;
+  margin-right: 1rem;
+  margin-top: 1rem;
+
+}
+
+
+/*Mobile Syle */
+@media only screen and (min-width : 320px) and (max-width:480px){
+
+<body>
+
+html {
+  font-size: 16px;
+}
+
+header {
+  display: none;
+}
+
+nav {
+  display: none;
+}
+
+.mobile {
+  background-color: white;
+  width: 100%;
+  height: 4rem;
+}
+
+.mobile img {
+  padding-left: 1.5rem;
+  height: 4rem;
+  justify-content: space-between;
+}
+
+.Title img {
+  display: none;
+}
+
+#Learn-Something {
+  background-color: lightgray;
+  height: 180px;
+  width: 100%;
+}
+
+.Learn {
+  display: block;
+}
+
+.Learn h2 {
+  font-family: 'Permanent Marker';
+  font-size: 3rem;
+  color: deepskyblue;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  width: 330%;
+
+}
+
+.Learn p {
+  font-family: 'Open Sans';
+  font-size: 2rem;
+  color: dimgray;
+  margin-bottom: 1.4rem;
+  width: 330%;
+  margin-left: 1rem;
+}
+
+.Learn button {
+  background-color: deepskyblue;
+  font-family: 'Open Sans';
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+  width: 330%;
+}
+
+.Learn button:hover {
+  color: white;
+  background-color: forestgreen;
+}
+
+
+.Information {
+  display: none;
+}
+
+.Orientation-date {
+  display:block;
+}
+
+.Orientation-date img {
+  margin-left: 4rem;
+  margin-top: 27rem;
+  width: auto;
+}
+
+.Orientation-date h3 {
+  font-family: "Permanent Marker";
+  color: deepskyblue;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.Orientation-date p {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  color: dimgray;
+}
+
+.Orientation-date a {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  color: deepskyblue;
+}
+
+.Our-campus {
+  display: block;
+}
+
+.Our-campus img {
+  margin-top: 1rem;
+  margin-left: 4rem;
+  width: auto;
+}
+
+.Our-campus h3 {
+  font-family: "Permanent Marker";
+  color: deepskyblue;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.Our-campus p {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  color: dimgray;
+}
+
+.Our-campus a {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  color: deepskyblue;
+}
+
+.Our-guest-lecture {
+  display: block;
+}
+
+.Our-guest-lecture img {
+  margin-top: 1rem;
+  margin-left: 4rem;
+  width: auto;
+}
+
+.Our-guest-lecture h3 {
+  font-family: "Permanent Marker";
+  color: deepskyblue;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.Our-guest-lecture p {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  color: dimgray;
+}
+
+.Our-guest-lecture a {
+  font-family: "Open Sans";
+  font-size: 1.5rem;
+  color: deepskyblue;
+}
+
+.Orientation-date a:hover,
+.Our-campus a:hover,
+.Our-guest-lecture a:hover{
+  font-weight: bold;
+  color: red;
+}
+
+/* Courses */
+
+.Start-learning h2{
+  font-size: 3.5rem;
+  padding-top: 2rem;
+  padding-bottom: -1rem;
+}
+
+.Items {
+  display: block;
+  width: 100%;
+}
+
+.Items h3{
+  font-size: 2rem;
+}
+
+.Items img, .Items span, .Items p {
+  display: none;
+}
+
+.Software-engineering h3:hover {
+  background-color: mediumseagreen;
+  color: white;
+  font-size: 2rem;
+}
+
+.Computer-art h3:hover {
+  background-color: firebrick;
+  color: white;
+  font-size: 2rem;
+}
+
+.Design h3:hover {
+  background-color: gold;
+  color: white;
+  font-size: 2rem;
+}
+
+.Data h3:hover {
+  background-color: midnightblue;
+  color: white;
+  font-size: 2rem;
+}
+
+.Business h3:hover {
+  background-color: royalblue;
+  color: white;
+  font-size: 2rem;
+}
+
+.Marketing h3:hover {
+  background-color: RebeccaPurple;
+  color: white;
+  font-size: 2rem;
+}
+
+/* Thesis */
+
+.Fisma, .Now-and-then,  .Reimagine-urban h3, .Reimagine-urban p, .Terms-Privacy {
+  display: none;
+}
+
+.Reimagine-urban {
+  margin-bottom: 3rem;
+}
+
+
+</body>
+/* End of Mobile Style */
